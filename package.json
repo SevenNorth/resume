@@ -1,7 +1,7 @@
 {
   "scripts": {
     "dev": "webpack-dev-server --open --hot",
-    "build": "webpack --config webpack-dist.config.js -p"
+    "build": "set NODE_ENV=dev && webpack --config webpack-dist.config.js -p"
   },
   "devDependencies": {
     "autoprefixer": "^9.8.0",
